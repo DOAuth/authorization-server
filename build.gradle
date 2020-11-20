@@ -7,8 +7,8 @@ plugins {
     id 'org.asciidoctor.convert' version '1.5.9.2'
 }
 
-group = 'com.example'
-version = '1.0.0-SNAPSHOT'
+group = 'com.github.doauth'
+version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
 configurations {

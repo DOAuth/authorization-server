@@ -7,9 +7,9 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @EnableConfigurationProperties(AuthorizationServerConfigurationProperties.class)
 @SpringBootApplication
-public class AuthorizationServerApplication {
+public class AuthorizationProxyApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(AuthorizationServerApplication.class, args);
+    SpringApplication.run(AuthorizationProxyApplication.class, args);
   }
 }
